@@ -169,14 +169,27 @@ body{
 
 /**footer**/
 .foot{
-    padding:2rem orem;
+    /* padding:2rem orem; */
     text-align: center;
     background-color:var(--primary-color);
     bottom: 0;
-    height: 18vh;
+    height: 23vh;
     border-top-right-radius: 0.5rem;
 }
 .foot .foot-header{
     font-size: 1rem;
-    padding: 1rem
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.blog_selector{
+    font-size:2rem;
+    padding-top:1.5rem;
+
+}
+.blog_para{
+    /* margin:1rem;
+    padding:0.3rem; */
+    font-size: 1.2rem;
+    
 }

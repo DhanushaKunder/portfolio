@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet"/>
-    <title>Blog</title>
+    <title>How browser work</title>
 </head>
 <body>
     <nav class="navigation block"> 
@@ -21,28 +21,15 @@
                 <a class="link link-active" href="/">Blog</a>
             </li>
         </ul>
-    </nav>
-    <h1 class="imgheading">My <span class="headinginverted"> Blogs</span></h1>
-    
+    </nav> 
 
-    <hr />
-
+    <h1 class="imgheading"> The <span class="headinginverted"> Rendering Engine</span></h1>
     <div class="block block-center">
-    <h3 class="blog_selector">CSS Selectors</h3>
-    <section class="content">
-    <p class="blog_para">In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the markup itself.
-            Selectors may apply to the following: all elements of a specific type, e.g. the second-level headers h2
-            elements specified by attribute, </p>
-        <a class="link link-primary" href="/selector_blog.html">Read More!!</a>
-        </section>
-    
-    
-    <h3 class="blog_selector">How Browsers Work</h3>
-    <section class="content">
-    <p class="blog_para">Web browsers are the most widely used software. There are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chrome–all of which, except for the Opera browsers, are based on WebKit.</p>
-    <a class="link link-secondary" href="/sources_blog.html">Read More!!</a>
-    </section>
-</div>
+    <p class="blog_para">Different browsers use different rendering engines: Internet Explorer uses Trident, Firefox uses Gecko, Safari uses WebKit. Chrome and Opera (from version 15) use Blink, a fork of WebKit.
+
+        WebKit is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows.</p>
+        <p class="blog_para">Gecko calls the tree of visually formatted elements a "Frame tree". Each element is a frame. WebKit uses the term "Render Tree" and it consists of "Render Objects". WebKit uses the term "layout" for the placing of elements, while Gecko calls it "Reflow". "Attachment" is WebKit's term for connecting DOM nodes and visual information to create the render tree. A minor non-semantic difference is that Gecko has an extra layer between the HTML and the DOM tree. It is called the "content sink" and is a factory for making DOM elements. </p>
+        </div>
     <footer class="foot">
         <h1 class="foot-header">Social media presence</h1>
         <ul>
@@ -57,5 +44,3 @@
             </li>
         </ul>
     </footer>
-</body>
-</html>

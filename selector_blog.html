@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Selectors</title>
+</head>
+<body>
+    <nav class="navigation block"> 
+        <div class="nav-brand"><a href="/">My Portfolio</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class= "list-item-inline"> 
+                <a class="link " href="/index.html">Home</a>
+            </li>
+            <li class= "list-item-inline">
+                <a class="link " href="/project.html">Project</a>
+            </li>
+            <li class= "list-item-inline">
+                <a class="link link-active" href="/">Blog</a>
+            </li>
+        </ul>
+    </nav>   
+    <h1 class="imgheading"> The <span class="headinginverted"> Selectors</span></h1>
+    <div class="block block-center">
+    <p class="blog_para">In particular:
+        id: an identifier unique within the document, identified with a hash prefix e.g. #id
+        class: an identifier that can annotate multiple elements in a document, identified with a period prefix e.g. .classname
+        elements depending on how they are placed relative to others in the document tree.
+        Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens, and underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single element.
+
+        Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover. A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as ::first-line or ::first-letter.</p>
+        
+        <p class="blog_para">Selectors may be combined in many ways to achieve great specificity and flexibility.[7] Multiple selectors may be joined in a spaced list to specify elements by location, element type, id, class, or any combination thereof. The order of the selectors is important. For example, div .myClass {color: red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div {color: red;} applies to all div elements that are inside elements of class myClass. This is not to be confused with concatenated identifiers such as div.myClass {color: red;} which applies to div elements of class myClass.</p>
+        </div>
+        
+        <footer class="foot">
+            <h1 class="foot-header">Social media presence</h1>
+            <ul>
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/DhanushaKunder">Github</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/DhanushaKunder">Twitter</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/dhanusha-kunder/">LinkedIn</a>
+                </li>
+            </ul>
+        </footer>
+
+
+    </body>
+</html>
